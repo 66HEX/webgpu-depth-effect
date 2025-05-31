@@ -203,7 +203,7 @@ const Page = () => {
           Spatial Resonance: A Digital Depth Symphony
         </h1>
         <p className='text-white text-sm text-center md:max-w-1/2 text-shadow-sm'>
-          In the intersection of light and mathematics, this interactive canvas explores the liminal space between surface and void, where each fragment becomes a note in an algorithmic composition responding to your presence. Through WebGPU's computational poetry, depth transforms into memory and movement orchestrates cascades of luminous data dancing at 60 frames per second.
+          In the intersection of light and mathematics, this interactive canvas explores the liminal space between surface and void, where each fragment becomes a note in an algorithmic composition responding to your presence. Through WebGPU&apos;s computational poetry, depth transforms into memory and movement orchestrates cascades of luminous data dancing at 60 frames per second.
         </p>
       </div>
       
