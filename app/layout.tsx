@@ -1,6 +1,12 @@
 import type { Metadata } from 'next';
+import localFont from 'next/font/local'
 import './globals.css';
 import Page from './page';
+
+const octo = localFont({
+  src: '../assets/fonts/tt-octo.ttf',
+  variable: '--font-octo',
+})
 
 export const metadata: Metadata = {
   title: 'Scanning effect with depth map',
@@ -15,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
       </head>
-      <body className="text-white">
+      <body className={`${octo.variable} antialiased`}>
         <Page />
       </body>
     </html>

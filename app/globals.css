@@ -1,1 +1,11 @@
 @import 'tailwindcss';
+
+@theme inline {
+    --font-octo: "octo";
+}
+
+@layer base {
+    body {
+      @apply font-octo overscroll-none;
+    }
+  }
